@@ -1,18 +1,19 @@
-** Mod 1 - (Game Project) TO DO:
+**Mod 1 - (Game Project) TO DO**:
 
 1. Set up repo in Github 
 2. Write README.MD 
 3. Pseudo Code/ notes
 4. Set up code environment
-5. code and pseudo code 1 player Tetris game + daily commits/update
-    - HTML
-    - CSS - must use Flexbox
-    - JS - must use classes 
+5. Code and pseudo code black jack game + daily commits/update
+    - HTML - must use divs for gameplay area
+    - CSS - must use flex-box
+    - JS - must use functions 
  
 
 **Black Jack**:
- - 2 player black jack (dealer vs player) ^ same concept
- - get the 1 player working completely by the 6th with no errors!
+ - 2 player black jack (dealer vs player)
+ - First to 21 wins unless dealer and player tie.
+ - Get code working completely by the 6th with no errors!
 
 **Resources**: 
 https://www.youtube.com/watch?v=bMYCWccL-3Us/
@@ -20,35 +21,61 @@ https://www.youtube.com/watch?v=bMYCWccL-3Us/
 https://codesandbox.io/s/javascript-beginner-tutorial-blackjack-epegw?from-embed
 
 
-**CSS**: 
- - play area container
- - bottons (play button and restart button)
- - score tracker/board
-
 **HTML**: 
- - 
- - 
- - 
+ - Dealer hand
+ - Player hand
+ - Hit/Stay buttons
+ - Restart button
+ - Score output
+ - Image input
+ - Div creation
+ 
+**CSS**: 
+ - Class/Id styling
+ - Container for play area (Flex box) -> "display: flex; align-items: center; justify-content: center;" -> (Center alignment for game container)
+ - Botton styling (hit/stay/restart button)
+ - Asset sizing
+ - Game back-drop
+ - Color scheme and font styling
 
 **JS**:
- - 
- - 
- - 
+ - Game logic (Deck creation, deck shuffle, dealer output, card link)
+ - Game flow (score/blackjack count)
+ 
+
+**Code Building Steps**
+ 1. Create HTML structure for game using button tags, classes, divs and img tags.
+ 2. Create CSS to stay any objects in HTML structure.
+ 3. Create JavaScript logic for gameplay:
+ 4. First we must declare global variables for: 
+    - Dealer card sum       - Face down card
+    - Player card sum       - Card deck 
+    - Dealer ace count      - "Hit" boolean -> action which allows player to draw.
+    - Player ace count
+   
+ 5. On page load figure a way to build/shuffle deck for gameplay start.   
+ 6. Create a loop or function to wrap gameplay.
+ 7. Must declare value of deck -> Array or variable declaration?
+ 8. When naming cards in JS logic (array or declaration), must match value('') of card with card name in image file (HTML index).
+ 9. Use a loop to cycle through card options for game load and deck shuffling -> (for-loop or while-loop?).
+ 10. For deck shuffle, must get random card output for playerand dealer hands -> Math.random()?
+ ----------------Game Start----------------------->
+ 11.  
 
 
 
 
 **REMEMEMBER**
 
- Stretch Goals (Not Mandatory):
+Stretch Goals (Not Mandatory):
 
-Recommended Features
+Recommended Features:
 - A way to reset the board and play again
 - CSS to give your game a personal and fun style
 - Responsive mobile design
 - Work with your instructor to determine additional stretch goals
 
- If you build a you Game must have:
+If you build a you Game must have:
 1. Must be a two player game (either against the computer or against another player)
 - Example: Blackjack: A player plays against the dealer. The dealer is the computer - Example: Connect Four: Two players pass the game between themselves to take turns
 2. A win state - a way for the player to win the game High score can be considered a win state

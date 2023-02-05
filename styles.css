@@ -1,0 +1,62 @@
+body{
+    background-image:url("img/black-jack-table.jpeg");  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+#game-container {
+    text-align: center;
+    /* width: 600px; */
+   
+    
+}
+
+h1 {
+    color: white;
+    font-style: bold;
+    text-shadow: 2px 3px black;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+        /* -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black; */
+}
+
+/* #faceDown{
+
+    float: inline-start;
+} */
+
+img {
+    height: 175px;
+    width: 125;
+    margin: 1px;   
+}
+
+/* #player-cards img{
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+} */
+
+#hit {
+    width: 85px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#stay {
+    width: 85px;
+    height: 50px;
+    font-size: 20px;
+}
+
+
+

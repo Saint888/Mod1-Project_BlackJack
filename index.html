@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="styles.css"/>
+    <script src = "app.js"></script>
+    <title>Black Jack - 21!</title>
+</head>
+<body>
+    <div id="game-container">
+        <h1>Dealer:<span id ="dealer-sum"></span></h1>
+            <div id = "dealer-cards"></div>
+                <img id = "face-down" src = "./img/cards/BACK.png"> 
+        <!-- Adding "hidden" id to img tag helps access tag in javaScript logic process. -->
+     
+        <h1>Player 1:<span id ="player-sum"></span></h1>
+            <div id = "player-cards"></div>
+
+        <br>
+
+        <button id = "hit">Hit</button>
+        <button id = "stay">Stay</button>
+
+        <p class = "results"></p>
+
+    </div>
+</body>
+</html>
