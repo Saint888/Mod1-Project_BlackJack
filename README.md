@@ -50,9 +50,15 @@ https://codesandbox.io/s/javascript-beginner-tutorial-blackjack-epegw?from-embed
  4. First we must declare global variables for: 
     - Dealer card sum       - Face down card
     - Player card sum       - Card deck 
+<<<<<<< HEAD
     - Dealer ace count      - "Hit" boolean -> action which allows player to draw.
     - Player ace count
    
+=======
+    - Dealer ace count      
+    - Player ace count
+    - "Hit" boolean -> action which allows player to draw.
+>>>>>>> b13d1022765e93495bc8c2723946bcff83d9f9dc
  5. On page load figure a way to build/shuffle deck for gameplay start.   
  6. Create a loop or function to wrap gameplay.
  7. Must declare value of deck -> Array or variable declaration?
