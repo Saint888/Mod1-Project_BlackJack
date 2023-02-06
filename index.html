@@ -11,20 +11,25 @@
 <body>
     <div id="game-container">
         <h1>Dealer:<span id ="dealer-sum"></span></h1>
-            <div id = "dealer-cards"></div>
-                <img id = "face-down" src = "./img/cards/BACK.png"> 
+            <div id = "dealer-cards">
+                <img id = "face-down" src = "./img/cards/BACK.png">
+            </div>     
         <!-- Adding "hidden" id to img tag helps access tag in javaScript logic process. -->
      
         <h1>Player 1:<span id ="player-sum"></span></h1>
+            <p id = "results"></p>
             <div id = "player-cards"></div>
-
+            
         <br>
 
-        <button id = "hit">Hit</button>
-        <button id = "stay">Stay</button>
-
-        <p class = "results"></p>
-
+        <button id = "hit">HIT</button>
+        <button id = "stay">STAY</button>
+        
     </div>
+
+         <br>
+
+        <button id = "reset">RESET</button>
+        <audio id = "audio" src ="https://youtu.be/O9FaGUyNfk0"></audio>
 </body>
 </html>

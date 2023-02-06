@@ -74,9 +74,15 @@ function startGame() {
     }
 
     console.log(playerSum)
-    document.getElementById('hit').addEventListener('click', hit);
-    document.getElementById('stay').addEventListener('click', stay);
+    document.getElementById('hit').addEventListener('click', hit); // On-click allow player to 'hit'(ask) for a card.
+    document.getElementById('stay').addEventListener('click', stay); // On-click allow player to 'stay'(be passed).
+    document.getElementById('reset').addEventListener('click', reset);
+    // document.getElementById("reset").reset();
+}
 
+function reset () {
+    // document.getElementById("reset").element.reset();
+    location.reload();
 }
 
 function hit() {
@@ -106,19 +112,19 @@ function stay(){
    let message = '';
 
    if (playerSum > 21){
-        message = 'You Lose!';
+        message = 'YOU LOSE!';
 
    }else if(dealerSum > 21){
-        message = 'You Win!';
+        message = 'YOU WIN!';
 
    }else if (playerSum == dealerSum){
-        message = 'Draw!';
+        message = 'DRAW!';
 
    }else if (playerSum > dealerSum){
-        message = 'You Win!';
+        message = 'YOU WIN!';
 
    }else if (playerSum < dealerSum){
-        message = 'You Lose!'
+        message = 'YOU LOSE!'
    }
 
    document.getElementById('dealer-sum').innerText = dealerSum;
@@ -153,4 +159,9 @@ function reduceAce(playerSum, playerAceCount){
     }
     return playerSum;
 }
+
+let myAudio = document.querySelector('#audio')
+myAudio.play();
+
+
 
