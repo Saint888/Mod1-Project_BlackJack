@@ -59,7 +59,7 @@ https://codesandbox.io/s/javascript-beginner-tutorial-blackjack-epegw?from-embed
  4. First we must declare global variables for: 
     - Dealer card sum       - Face down card
     - Player card sum       - Card deck 
-    - Dealer ace count      - "Hit" boolean -> action which allows player to draw.
+    - Dealer ace count      
     - Player ace count
     - Dealer ace count      
     - Player ace count
