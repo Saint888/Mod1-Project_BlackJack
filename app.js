@@ -85,7 +85,7 @@ function reset () {
     location.reload();
 }
 
-function hit() {
+function hit() { // Allows player to 'hit' if they would like to recieve a card.
     if(!playerHit){
         return;
     }
@@ -102,7 +102,7 @@ function hit() {
         
 }
 
-function stay(){
+function stay(){ // Allows player to 'stay' and be passed by dealer.
    dealerSum = reduceAce(dealerSum, dealerAceCount);
    playerSum = reduceAce(playerSum, playerAceCount); 
 
