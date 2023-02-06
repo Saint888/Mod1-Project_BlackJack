@@ -1,5 +1,6 @@
-**Mod 1 - (Game Project) TO DO**:
+**Mod 1 - Game Project (Black Jack)**:
 
+**TO DO**
 1. Set up repo in Github 
 2. Write README.MD 
 3. Pseudo Code/ notes
@@ -14,6 +15,14 @@
  - 2 player black jack (dealer vs player)
  - First to 21 wins unless dealer and player tie.
  - Get code working completely by the 6th with no errors!
+
+ **Game Overview**
+ - On page load the deck is created and shuffled for dealer to distribute.
+ - Dealer keeps on card face down and deals the player 2 cards.
+ - Dealers deals one more card to self and player is then given the option to 'hit or 'stay'.
+ - Goal of game is to beat the dealer, first player to have more than the dealer without busting but less than or equal to 21 is the winner.
+ - Depending on outcome, a message is sent to player displaying game score and whether the player has won or loss.
+ - When game is finished, player can press 'reset' to reshuffle the deck and begin to play again.
 
 **Resources**: 
 https://www.youtube.com/watch?v=bMYCWccL-3Us/
@@ -66,7 +75,7 @@ https://codesandbox.io/s/javascript-beginner-tutorial-blackjack-epegw?from-embed
  9. Use a loop to cycle through card options for game load and deck shuffling -> (for-loop or while-loop?).
  10. For deck shuffle, must get random card output for playerand dealer hands -> Math.random()?
  ----------------Game Start----------------------->
- 11.  
+ 
 
 
 
